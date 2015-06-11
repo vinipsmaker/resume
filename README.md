@@ -45,7 +45,7 @@ C++ - Git - HTTP - Qt - async - [MongoDB](http://stackoverflow.com/users/883113/
 ### Technical Skills
 * **Programming Languages**: `Rust` `C++` `Python` `JavaScript` `Java` 
 * **Frameworks**: `STL` `Node.js + ConnectJS` `Flask` `Qt` `GStreamer` `v8` `Boost.Asio` 
-* **Databases**: `[MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers)` `redis` 
+* **Databases**: `MongoDB` `redis` 
 * **Tools**: `Git` `CMake` `Emacs` `bash + some regex` 
 
 
