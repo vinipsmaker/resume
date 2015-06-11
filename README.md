@@ -92,3 +92,4 @@ C++ - Git - HTTP - Qt - async - [MongoDB](http://stackoverflow.com/users/883113/
 * [A blog, documenting some of my experiences](https://vinipsmaker.wordpress.com/category/en/).
 * I contribute to a [site which publishes IT-themed comics](http://nuux.org/).
 * I maintain a [podcast on the topic of computer science](http://64macacos.wordpress.com/).
+* I go to many IT events where sometimes I do a few talks on MongoDB or safe C++ programming or asynchronous programming or some other thing.
