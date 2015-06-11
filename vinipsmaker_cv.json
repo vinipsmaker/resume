@@ -9,7 +9,7 @@
         "email": "vini.ipsmaker @ gmail.com",
         "phone": "+55 (82) 99970-4230",
         "website": "https://about.me/vinipsmaker",
-        "stars": ["C++","Git","HTTP", "Qt", "async", "MongoDB", "Emacs"],
+        "stars": ["C++","Git","HTTP", "Qt", "async", "[MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers)", "Emacs"],
 	"summary": {
 		"points":[
                     "I'm passionate about network-facing problems and it is what I do since I entered on my university.",
@@ -100,10 +100,7 @@
                         "C++",
                         "Python",
                         "JavaScript",
-                        "MongoDB query language",
-                        "regex (not really a PL, but worth mentioning)",
-                        "Java",
-                        "bash"
+                        "Java"
                     ]
                 },
                 {
@@ -121,7 +118,7 @@
                 {
                     "type": "Databases",
                     "items": [
-                        "MongoDB",
+                        "[MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers)",
                         "redis"
                     ]
                 },
@@ -130,7 +127,8 @@
                     "items": [
                         "Git",
                         "CMake",
-                        "Emacs"
+                        "Emacs",
+                        "bash + some regex"
                     ]
                 }
             ]

@@ -1,7 +1,7 @@
 ##Vinícius Oliveira
 [https://about.me/vinipsmaker](https://about.me/vinipsmaker) `vini.ipsmaker @ gmail.com` `+55 (82) 99970-4230`
 
-C++ - Git - HTTP - Qt - async - MongoDB - Emacs
+C++ - Git - HTTP - Qt - async - [MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers) - Emacs
 
 ### Qualifications summary
 * I'm passionate about network-facing problems and it is what I do since I entered on my university.
@@ -43,10 +43,10 @@ C++ - Git - HTTP - Qt - async - MongoDB - Emacs
 * [vinipsmaker/dotfiles](http://github.com/vinipsmaker/dotfiles) : Config files for my ArchLinux system
 
 ### Technical Skills
-* **Programming Languages**: `Rust` `C++` `Python` `JavaScript` `MongoDB query language` `regex (not really a PL, but worth mentioning)` `Java` `bash` 
+* **Programming Languages**: `Rust` `C++` `Python` `JavaScript` `Java` 
 * **Frameworks**: `STL` `Node.js + ConnectJS` `Flask` `Qt` `GStreamer` `v8` `Boost.Asio` 
-* **Databases**: `MongoDB` `redis` 
-* **Tools**: `Git` `CMake` `Emacs` 
+* **Databases**: `[MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers)` `redis` 
+* **Tools**: `Git` `CMake` `Emacs` `bash + some regex` 
 
 
 
