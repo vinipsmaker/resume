@@ -46,6 +46,7 @@ C++ - Git - HTTP - Qt - async - MongoDB - Emacs
 * **Programming Languages**: `Rust` `C++` `Python` `JavaScript` `MongoDB query language` `regex (not really a PL, but worth mentioning)` `Java` `bash` 
 * **Frameworks**: `STL` `Node.js + ConnectJS` `Flask` `Qt` `GStreamer` `v8` `Boost.Asio` 
 * **Databases**: `MongoDB` `redis` 
+* **Tools**: `Git` `CMake` `Emacs` 
 
 
 

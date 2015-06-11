@@ -124,6 +124,14 @@
                         "MongoDB",
                         "redis"
                     ]
+                },
+                {
+                    "type": "Tools",
+                    "items": [
+                        "Git",
+                        "CMake",
+                        "Emacs"
+                    ]
                 }
             ]
         },
