@@ -64,6 +64,7 @@ C++ - Git - HTTP - Qt - async - [MongoDB](http://stackoverflow.com/users/883113/
     - The opportunity to work with really smart people (I cannot express how much I enjoyed the experience).
     - [Used in Inkscape to vectorize pixel art](http://wiki.inkscape.org/wiki/index.php/Release_notes/0.91#Trace_Pixel_Art_.28libdepixelize.29).
 * Random contributions to open source projects
+    - [First contribution to a Rust project](https://github.com/uutils/coreutils/pull/617).
     - [kbd patches](http://lists.altlinux.org/pipermail/kbd/2015-January/000500.html).
     - [EFL patches](https://git.enlightenment.org/core/efl.git/commit/?id=5a2ac0c42f8ada84393b68c9695c1a6e13793547).
     - [Wesnoth patches](https://github.com/wesnoth/wesnoth/commits?author=vinipsmaker).
