@@ -8,8 +8,8 @@
     "bio_data": {
         "email": "vini.ipsmaker @ gmail.com",
         "phone": "+55 (82) 99970-4230",
-        "website": "https://about.me/vinipsmaker",
-        "stars": ["C++","Git","HTTP", "Qt", "async", "[MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers)", "Emacs"],
+        "website": "https://vinipsmaker.github.io/",
+        "stars": ["C++","Git","HTTP", "Qt", "async", "[MongoDB](http://stackoverflow.com/users/883113/vinipsmaker?tab=answers)", "Rust"],
 	"summary": {
 		"points":[
                     "I'm passionate about network-facing problems and it is what I do since I entered on my university.",
@@ -24,8 +24,8 @@
                     "tagline": "Asynchronous web framework for C++ built on top of Qt.",
                     "description": [
                         "Project started in 2011 and still maintained.",
-                        "170 stars on GitHub.",
-                        "19 users on the mailing list and usually 4 users online on IRC.",
+                        "301 stars on GitHub.",
+                        "19 users on the mailing list.",
                         "Inspired by _Node.js_.",
                         "C++, but cross-platform.",
                         "Great documentation (reference, tutorial, examples, QtCreator plugin to speedup...).",
@@ -39,10 +39,11 @@
                     "tagline": "This library can be used to create applications that need to expose services through HTTP (e.g. embeddable ReST services).",
                     "description": [
                         "Developed as part of a [GSoC 2014 project](http://www.google-melange.com/gsoc/project/details/google/gsoc2014/vinipsmaker/5835889892655104) (somehow easier than my previous GSoC project).",
-                        "[Scheduled for review to be accepted into Boost high quality C++ libraries](http://www.boost.org/community/review_schedule.html) (but I'm very confident). If accepted, it'll have a great impact on how C++ programmers code HTTP services, given that ASIO is expected to become the future C++ standard for sockets.",
+                        "[Rejected to inclusion into Boost high quality C++ libraries in 2015](https://vinipsmaker.wordpress.com/2015/09/05/boost-http-rejected/).",
+                        "[Further funded in 2016 to be improved and submitted later again](https://vinipsmaker.wordpress.com/2016/04/26/boost-http-parser-project/).",
                         "Many many tests and yet more tests being implemented.",
-                        "CI for test under GNU/Linux and an ongoing effort to add Visual Studio-based CI support.",
-                        "It caused me a great change of perspective on how to think about asynchronous code.",
+                        "CI for test under GNU/Linux, OSX and Visual Studio-based (including builds with sanitizers turned on).",
+                        "It caused me a great change of perspective on how to think about asynchronous code and parsers.",
                         "It was a great project to develop the skill on how to elaborate good design.",
                         "Finally the opportunity to justifiably use some cool C++ tricks."
                     ]
@@ -128,7 +129,7 @@
                         "Git",
                         "CMake",
                         "Emacs",
-                        "bash + some regex"
+                        "ZSH + some regex"
                     ]
                 }
             ]
@@ -142,9 +143,32 @@
                     "organisation": "Expertise Solutions",
 		    "location": "Brazil",
                     "from": "September, 2014",
-                    "to": "today",
+                    "to": "September, 2015",
                     "details": [
                         "Implement JavaScript bindings for the [EFL toolkit](http://en.wikipedia.org/wiki/Enlightenment_Foundation_Libraries)."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "C++",
+                            "v8",
+                            "EFL",
+                            "JavaScript",
+                            "Git",
+                            "autotools"
+                        ]
+                    }
+                },
+                {
+                    "title": "Rust developer",
+                    "organisation": "MaidSafe",
+		    "location": "remote",
+                    "from": "June, 2015",
+                    "to": "now",
+                    "details": [
+                        "Help the development of SAFE network.",
+                        "Major parts of contributed code in Rust, but also took part on fixing code on the FFI boundaries between C and JavaScript (NodeJS).",
+                        "Got to work with NAT traversal research and implementation.",
+                        "Cross-platform and scalability issues related to network APIs."
                     ],
                     "technology_used": {
                         "tools": [
@@ -179,6 +203,7 @@
                         "[kbd patches](http://lists.altlinux.org/pipermail/kbd/2015-January/000500.html).",
                         "[EFL patches](https://git.enlightenment.org/core/efl.git/commit/?id=5a2ac0c42f8ada84393b68c9695c1a6e13793547).",
                         "[Wesnoth patches](https://github.com/wesnoth/wesnoth/commits?author=vinipsmaker).",
+                        "[Crust patches](https://github.com/maidsafe/crust/commits?author=vinipsmaker)",
                         "[Some ArchLinux PKGBUILDs](https://aur.archlinux.org/packages/?SeB=m&K=vinipsmaker).",
                         "[Translation contributions for the Enlightenment window manager](http://thread.gmane.org/gmane.comp.window-managers.enlightenment.i18n/2020/focus=2021).",
                         "[Bugfixes for OpenPandora firmware](http://openpandora.org/pipermail/firmware-dev/2014-February/000738.html).",
@@ -199,12 +224,7 @@
             ]
         },
         "grad_courses": [],
-        "undergrad_courses": [
-            {
-                "name": "Majoring in Computer Science",
-                "url": "http://www.ufal.edu.br/unidadeacademica/ic/graduacao/ciencia-da-computacao"
-            }
-	],
+        "undergrad_courses": [],
         "research_experience": {},
         "extra_curricular": {
             "items": [
