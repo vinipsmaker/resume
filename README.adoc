@@ -1,0 +1,169 @@
+== Vinícius Oliveira
+
+:cpp: C++
+
+https://vinipsmaker.github.io/ `vini.ipsmaker @ gmail.com`
+//`+55 (82) 99970-4230`
+
+{cpp} - Git - HTTP - Qt - async - http://stackoverflow.com/users/883113/vinipsmaker?tab=answers[MongoDB] - Rust
+
+=== Qualifications summary
+
+* I like network-facing problems.
+* I like to code applications where performance matters.
+* I'm used to code cross-platform applications (this goes against previous point
+  given you can tune performance even further when targeting a single platform).
+
+=== GitHub Projects
+
+* http://github.com/vinipsmaker/tufao[vinipsmaker/tufao]: Asynchronous
+  web framework for {cpp} built on top of Qt.
+** Project started in 2011.
+** 359 stars on GitHub.
+** 19 users on the mailing list.
+** Inspired by _Node.js_.
+** {cpp}, but cross-platform.
+** Great documentation (reference, tutorial, examples, QtCreator plugin to
+   speedup…).
+** Very flexible.
+** I made a talk on Tufão for one of the largest free software events in
+   Brazil — FISL.
+** It gave me experience on how to coordinate collaboration with possible
+   contributors, how to encourage positive feedback, run a free software
+   project…
+* https://launchpad.net/libdepixelize[libdepixelize] » Implementation for the
+  Kopf/Lischinski vectorization algorithm for depixelation of non-blended
+  non-anti-aliased pixel art.
+** Developed as part of a
+  https://vinipsmaker.wordpress.com/2013/05/28/gsoc2013-inkscape/[GSoC 2013
+  project].
+** It was a great challenge to do research, learn from research (mostly
+  documents that aren’t teaching oriented and aren’t easily indexed), play with
+  math and implement an algorithm for which I found no alternative
+  implementation that I could use for reference.
+** Gave me a taste of how awesome the Inkscape community is.
+** The opportunity to make improvements
+  footnote:[https://vinipsmaker.wordpress.com/2013/08/20/should-i-really-target-kopf-lischinski/]
+  footnote:[https://plus.google.com/118295250366112843114/posts/84tLGpMFRe5]
+  footnote:[https://vinipsmaker.wordpress.com/2014/04/01/another-libdepixelize-update/]
+  footnote:[https://plus.google.com/118295250366112843114/posts/WXEWKtyetEN] to
+  an algorithm that were already awesome.
+** The opportunity to work with really smart people (I cannot express how much I
+   enjoyed the experience).
+** http://wiki.inkscape.org/wiki/index.php/Release_notes/0.91#Trace_Pixel_Art_.28libdepixelize.29[Used
+   in Inkscape to vectorize pixel art].
+* http://github.com/BoostGSoC14/boost.http[BoostGSoC14/boost.http]: This
+  library can be used to create applications that need to expose services
+  through HTTP (e.g. embeddable ReST services).
+** Developed as part of a
+http://www.google-melange.com/gsoc/project/details/google/gsoc2014/vinipsmaker/5835889892655104[GSoC
+2014 project] (somehow easier than my previous GSoC project).
+** https://vinipsmaker.wordpress.com/2015/09/05/boost-http-rejected/[Rejected to
+   inclusion into Boost high quality {cpp} libraries in 2015].
+** https://vinipsmaker.wordpress.com/2016/04/26/boost-http-parser-project/[Further
+   funded in 2016 to be improved and submitted later again].
+** Many many tests and yet more tests being implemented.
+** CI for test under GNU/Linux, OSX and Visual Studio-based (including builds
+   with sanitizers turned on).
+** It caused me a great change of perspective on how to think about asynchronous
+   code and parsers.
+** It was a great project to develop the skill on how to elaborate good design.
+** Finally the opportunity to justifiably use some cool {cpp} tricks.
+* http://github.com/vinipsmaker/tamanduang[vinipsmaker/tamanduang]: a compiler
+  class' assignment
+** My first Rust code.
+** A lexer for a shitty language that I’m designing.
+* http://github.com/vinipsmaker/tufao-qtcreatorplugin[vinipsmaker/tufao-qtcreatorplugin]:
+  plugin for QtCreator IDE to easily create new Tufão projects
+** It gave me experience on how to work with mysterious APIs that are
+   half-baked, underdocumented and break API every release.
+** Fair enough, it’s a very small project.
+* http://github.com/vinipsmaker/logica-whopper[vinipsmaker/logica-whopper]: Just
+  a logic class' assignment.
+** Simple Python program that evaluate some simple logic expressions.
+** https://asciinema.org/a/7839[Watch the asciicast].
+* http://github.com/vinipsmaker/drunken-octo-sansa[vinipsmaker/drunken-octo-sansa]:
+  Random code to solve random problems
+** Code created while I was training to compete on the ACM-ICPC.
+* http://github.com/vinipsmaker/c-except[vinipsmaker/c-except]: An exception
+  system for C in a single header file
+** Just an experiment to see how I’d implement an exception system for the C
+   language.
+* http://github.com/vinipsmaker/dotfiles[vinipsmaker/dotfiles]: Config files for
+  my ArchLinux system
+
+=== Technical Skills
+
+* *Programming Languages*: `Rust` `C++` `Python` `JavaScript` `Java`
+* *Frameworks*: `STL` `Qt` `GStreamer` `Boost.Asio`
+* *Tools*: `Git` `CMake` `Emacs` `ZSH` `AWK`
+
+=== Professional Experience
+
+* {cpp} developer, Expertise Solutions, Brazil (September, 2014 – September,
+  2015)
+** Implement JavaScript bindings for the
+   http://en.wikipedia.org/wiki/Enlightenment_Foundation_Libraries[EFL toolkit].
+** Technologies got to work on: `C++` `v8` `EFL` `JavaScript` `Git` `autotools`.
+* Rust developer, MaidSafe, remote (June, 2015 – December, 2016)
+** Help the development of SAFE network.
+** Major parts of contributed code in Rust, but also took part on fixing code on
+   the FFI boundaries between C and JavaScript (NodeJS).
+** Got to work with NAT traversal research and implementation.
+** Cross-platform and scalability issues related to network APIs.
+** Technologies got to work on: `Rust` `Git`.
+* {cpp} developer, BlinkTrade, remote (February, 2017 – October, 2020)
+** Help develop a trading platform for cryptocurrencies.
+** https://github.com/blinktrade/iofiber[Develop a fiber library].
+** Develop the web-facing gateway that absorbs most of the concurrency problems
+   in the pipeline (routing requests, multiplexing many channels, keeping state
+   synchronized, renegotiating state, broadcasting events, synthesizing lost
+   events, ensuring DoS-protection limits, opportunistically compressing
+   notification queues, perform proper scheduling strategies to avoid classical
+   problems such as starvation and that kind of problem... and many more).
+** Implement JSON parsing ideas to merge multiple validation layers into an
+   one-pass operation. You can have a grasp on the kind of ideas used by reading
+   https://gitlab.com/-/snippets/2016550[the review I've submitted to
+   Boost.JSON].
+** Teamwork in the protocols design process.
+** Orchestrate dependencies in the {cpp} tooling hell for moving APIs.
+** Technologies got to work on: `C++` `Boost.Asio` `ZeroMQ` `WebSocket` `JSON`.
+
+=== Other Personal Projects
+
+* Random contributions to open source projects
+** https://github.com/uutils/coreutils/pull/617[First contribution to a Rust
+   project].
+** http://lists.altlinux.org/pipermail/kbd/2015-January/000500.html[kbd
+   patches].
+** https://git.enlightenment.org/core/efl.git/commit/?id=5a2ac0c42f8ada84393b68c9695c1a6e13793547[EFL
+   patches].
+** https://github.com/wesnoth/wesnoth/commits?author=vinipsmaker[Wesnoth
+   patches].
+** https://aur.archlinux.org/packages/?SeB=m&K=vinipsmaker[Some
+   ArchLinux PKGBUILDs].
+** http://thread.gmane.org/gmane.comp.window-managers.enlightenment.i18n/2020/focus=2021[Translation
+   contributions for the Enlightenment window manager].
+** http://openpandora.org/pipermail/firmware-dev/2014-February/000738.html[Bugfixes
+   for OpenPandora firmware].
+** https://github.com/kparal/gkeyring/pull/3[gkeyring patches].
+** https://github.com/andris9/node-jsonrpc/issues/2[node-jsonrpc
+   patches].
+** …
+* Random bug reports to open source projects
+** https://gcc.gnu.org/bugzilla/show_bug.cgi?id=56914[One] or
+   https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66254[two] GCC bugs.
+** https://bugs.archlinux.org/index.php?opened=15412&status%5B%5D=[Packaging
+   issues on ArchLinux].
+** https://bugs.kde.org/show_bug.cgi?id=347525[One Choqok bug].
+** ...
+
+=== Undergraduate Courses Taken
+
+* http://www.ufal.edu.br/unidadeacademica/ic/graduacao/ciencia-da-computacao[I
+  am a college dropout].
+
+=== Extra Curricular Awards
+
+* I used to maintain a http://64macacos.wordpress.com/[podcast on the topic of
+  computer science].
