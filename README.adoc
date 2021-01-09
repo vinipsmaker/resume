@@ -14,8 +14,12 @@ https://vinipsmaker.github.io/ `vini.ipsmaker @ gmail.com`
 * I'm used to code cross-platform applications (this goes against previous point
   given you can tune performance even further when targeting a single platform).
 
-=== GitHub Projects
+=== Github/Gitlab Projects
 
+* https://gitlab.com/emilua/emilua[Emilua]: Execution engine for Lua.
+** A complete (sync primitives, interruption api, cleanup handlers, fiber-local
+   storage, you name it) fiber-based IO concurrency runtime for Lua.
+** Also implements an actor API to exploit multi-VM parallelism.
 * http://github.com/vinipsmaker/tufao[vinipsmaker/tufao]: Asynchronous
   web framework for {cpp} built on top of Qt.
 ** Project started in 2011.
