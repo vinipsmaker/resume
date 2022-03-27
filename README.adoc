@@ -20,8 +20,20 @@ https://vinipsmaker.github.io/ `vini.ipsmaker @ gmail.com`
 ** A complete (sync primitives, interruption api, cleanup handlers, fiber-local
    storage, you name it) fiber-based IO concurrency runtime for Lua.
 ** Also implements an actor API to exploit multi-VM parallelism.
-* http://github.com/vinipsmaker/tufao[vinipsmaker/tufao]: Asynchronous
-  web framework for {cpp} built on top of Qt.
+** TCP, UDP, UNIX signals, UNIX local sockets, serial ports, name/service
+   resolution, IPv6, TLS, HTTP, WebSocket, low-level controls (e.g. TCP OOB).
+** Native plugins (i.e. DLLs) support to extend Lua
+   functionality. https://gitlab.com/emilua/glib[It has been used to integrate
+   Boost.Asio to foreign event loops (e.g. GLib)].
+** Implementation: Boost.Asio, Boost.Hana, Boost.PP, Boost.DLL, Boost.Nowide,
+   re2c, code/bytecode generation, build systems integration, atomics, thread
+   pools, events, async IO, flow control, scalable design, work units lifetime,
+   deadlock prevention, non-blocking APIs, interruptible calls, (Lua) program
+   crash handling, adherence to OS conventions, cross-platform.
+** Simple to use. It does a lot, the implementation is complex, but it's simple
+   to use (and it presents safe APIs).
+* http://github.com/vinipsmaker/tufao[vinipsmaker/tufao]: Event-oriented
+  HTTP/WebSocket framework for {cpp} built on top of Qt.
 ** Project started in 2011.
 ** 359 stars on GitHub.
 ** 19 users on the mailing list.
@@ -30,8 +42,8 @@ https://vinipsmaker.github.io/ `vini.ipsmaker @ gmail.com`
 ** Great documentation (reference, tutorial, examples, QtCreator plugin to
    speedup…).
 ** Very flexible.
-** I made a talk on Tufão for one of the largest free software events in
-   Brazil — FISL.
+** I presented Tufão on one of the largest free software events in Brazil —
+   FISL.
 ** It gave me experience on how to coordinate collaboration with possible
    contributors, how to encourage positive feedback, run a free software
    project…
