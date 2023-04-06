@@ -21,10 +21,13 @@ https://vinipsmaker.github.io/ `vini.ipsmaker @ gmail.com`
    storage, you name it) fiber-based IO concurrency runtime for Lua.
 ** Also implements an actor API to exploit multi-VM parallelism.
 ** TCP, UDP, UNIX signals, UNIX local sockets, serial ports, name/service
-   resolution, IPv6, TLS, HTTP, WebSocket, low-level controls (e.g. TCP OOB).
+   resolution, IPv6, TLS, HTTP, WebSocket, low-level controls (e.g. TCP OOB),
+   filesystem.
 ** Native plugins (i.e. DLLs) support to extend Lua
    functionality. https://gitlab.com/emilua/glib[It has been used to integrate
    Boost.Asio to foreign event loops (e.g. GLib)].
+** https://docs.emilua.org/api/0.4/tutorial/linux_namespaces.html[Linux
+   namespaces].
 ** Implementation: Boost.Asio, Boost.Hana, Boost.PP, Boost.DLL, Boost.Nowide,
    re2c, code/bytecode generation, build systems integration, atomics, thread
    pools, events, async IO, flow control, scalable design, work units lifetime,
